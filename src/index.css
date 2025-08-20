@@ -2,41 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Aurora Farmstay Design System - Himalayan Luxury Retreat
+   Earthy, traditional yet modern, inspired by natural materials and mountain serenity
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core Brand Colors - Warm earthly tones */
+    --background: 47 25% 97%;           /* Warm cream background */
+    --foreground: 20 15% 15%;           /* Deep earth brown */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 47 35% 95%;                 /* Warm card background */
+    --card-foreground: 20 15% 15%;      /* Deep earth brown */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 47 35% 95%;
+    --popover-foreground: 20 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Terracotta warmth */
+    --primary: 22 69% 47%;              /* Rich terracotta */
+    --primary-foreground: 47 25% 97%;   /* Warm cream */
+    --primary-glow: 22 69% 65%;         /* Lighter terracotta */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Deep forest green */
+    --secondary: 120 25% 25%;           /* Deep pine green */
+    --secondary-foreground: 47 25% 97%; /* Warm cream */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Accent - Muted gold */
+    --accent: 43 74% 49%;               /* Muted gold */
+    --accent-foreground: 20 15% 15%;    /* Deep earth brown */
+    --accent-light: 43 55% 75%;         /* Light gold wash */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Neutral tones */
+    --muted: 40 15% 88%;                /* Light earth tone */
+    --muted-foreground: 20 15% 35%;     /* Medium earth brown */
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 47 25% 97%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 40 15% 88%;               /* Light earth border */
+    --input: 40 15% 88%;
+    --ring: 22 69% 47%;                 /* Terracotta ring */
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Aurora Farmstay Custom Tokens */
+    --mountain-mist: 200 15% 92%;       /* Soft mountain mist */
+    --stream-blue: 200 45% 65%;         /* Mountain stream blue */
+    --earth-warm: 30 35% 85%;           /* Warm earth tone */
+    --forest-deep: 120 35% 20%;         /* Deep forest green */
+    --sunset-glow: 25 75% 55%;          /* Sunset terracotta */
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-glow)) 50%, hsl(var(--accent)) 100%);
+    --gradient-earth: linear-gradient(180deg, hsl(var(--earth-warm)) 0%, hsl(var(--background)) 100%);
+    --gradient-mountain: linear-gradient(to bottom, hsl(var(--mountain-mist)) 0%, hsl(var(--background)) 70%);
+
+    /* Shadows - Soft, natural */
+    --shadow-soft: 0 4px 20px -4px hsl(var(--primary) / 0.15);
+    --shadow-warm: 0 8px 30px -8px hsl(var(--sunset-glow) / 0.25);
+    --shadow-deep: 0 12px 40px -10px hsl(var(--forest-deep) / 0.3);
+
+    /* Typography scale */
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-gentle: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -101,5 +135,54 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  /* Custom Typography */
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  /* Custom Utility Classes */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  .transition-gentle {
+    transition: var(--transition-gentle);
+  }
+
+  /* Custom Background Patterns */
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .bg-gradient-earth {
+    background: var(--gradient-earth);
+  }
+
+  .bg-gradient-mountain {
+    background: var(--gradient-mountain);
+  }
+
+  /* Custom Shadows */
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-warm {
+    box-shadow: var(--shadow-warm);
+  }
+
+  .shadow-deep {
+    box-shadow: var(--shadow-deep);
   }
 }

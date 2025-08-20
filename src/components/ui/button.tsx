@@ -18,6 +18,10 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Aurora Farmstay Custom Variants
+        hero: "bg-primary text-primary-foreground hover:bg-primary-glow shadow-warm transition-all duration-300 hover:shadow-deep hover:scale-105 font-display font-medium",
+        earth: "bg-earth-warm text-foreground hover:bg-accent border border-accent/20 shadow-soft transition-smooth",
+        mountain: "bg-gradient-to-r from-secondary to-forest-deep text-secondary-foreground hover:shadow-deep transition-gentle",
       },
       size: {
         default: "h-10 px-4 py-2",
