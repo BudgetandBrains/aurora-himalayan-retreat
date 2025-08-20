@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import heroMountain from "@/assets/hero-mountain.jpg";
 
 const Hero = () => {
@@ -28,16 +29,17 @@ const Hero = () => {
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button 
+            asChild
             variant="hero" 
             size="lg" 
             className="text-lg px-8 py-6 min-w-[200px]"
           >
-            Book Your Stay
+            <Link to="/book">Book Your Stay</Link>
           </Button>
           <Button 
             variant="outline" 
             size="lg" 
-            className="text-lg px-8 py-6 min-w-[200px] border-white/30 text-white hover:bg-white/10 hover:text-white"
+            className="text-lg px-8 py-6 min-w-[200px] border-white/50 text-white bg-white/10 hover:bg-white/20 hover:text-white"
           >
             Explore Experiences
           </Button>

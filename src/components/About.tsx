@@ -31,8 +31,8 @@ const About = () => {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-warm">
               <img 
-                src={farmstayExterior} 
-                alt="Aurora Farmstay beautiful exterior with mountain views" 
+                src="/lovable-uploads/266ff27b-5bd6-4b06-bf7f-5412f503d37f.png" 
+                alt="Aurora Farmstay with mountain stream and natural surroundings" 
                 className="w-full h-[400px] lg:h-[500px] object-cover"
               />
             </div>

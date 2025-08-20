@@ -12,8 +12,8 @@ const experiences = [
   {
     title: "Walk through nearby villages & fields",
     description: "Explore authentic village life and walk through emerald fields that surround our peaceful retreat.",
-    image: "/api/placeholder/400/400",
-    alt: "Walking through village fields"
+    image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
+    alt: "Walking through village fields with mountain views"
   },
   {
     title: "Swim in the mountain stream",
@@ -30,8 +30,8 @@ const experiences = [
   {
     title: "Stargaze from the rooftop",
     description: "Experience the wonder of unpolluted night skies from our rooftop terrace, perfect for stargazing.",
-    image: "/api/placeholder/400/400",
-    alt: "Stargazing from rooftop terrace"
+    image: "/lovable-uploads/9fe33e62-beff-4bdc-b8c7-8910c1fe136d.png",
+    alt: "Aurora Farmstay rooftop and aerial view"
   }
 ];
 
