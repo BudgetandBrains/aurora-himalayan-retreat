@@ -30,7 +30,6 @@ const Hero = () => {
         <Carousel 
           opts={{
             loop: true,
-            duration: 30,
           }}
           plugins={[
             Autoplay({
@@ -39,9 +38,9 @@ const Hero = () => {
           ]}
           className="w-full h-full"
         >
-          <CarouselContent className="w-full h-full [&>*]:transition-opacity [&>*]:duration-1000">
+          <CarouselContent className="w-full h-full">
             {heroImages.map((image, index) => (
-              <CarouselItem key={index} className="w-full h-full absolute inset-0">
+              <CarouselItem key={index} className="w-full h-full">
                 <img 
                   src={image.src}
                   alt={image.alt}
