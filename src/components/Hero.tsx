@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import heroMountain from "@/assets/hero-mountain.jpg";
 
 const Hero = () => {
   return (
@@ -8,7 +7,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src={heroMountain} 
+          src="/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png" 
           alt="Dhauladhar mountain range view from Aurora Farmstay" 
           className="w-full h-full object-cover"
         />
