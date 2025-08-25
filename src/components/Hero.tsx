@@ -1,16 +1,57 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 
 const Hero = () => {
+  const heroImages = [
+    {
+      src: "/lovable-uploads/e8c0a26b-1fa5-49af-ae51-eafdd6488cfb.png",
+      alt: "Aerial view of Aurora Farmstay property with gardens and buildings"
+    },
+    {
+      src: "/lovable-uploads/877313b8-5f23-40e3-ae83-88d1665a4323.png",
+      alt: "Paragliding over mountains during sunset near Aurora Farmstay"
+    },
+    {
+      src: "/lovable-uploads/fac6eb17-31f5-435a-97f7-8b7f8fc8c015.png",
+      alt: "Paragliding with moon over Himalayan mountains"
+    },
+    {
+      src: "/lovable-uploads/3a627053-8035-48dd-a4e0-093923144ff3.png",
+      alt: "Sunset view over fields and Dhauladhar mountains from Aurora Farmstay"
+    }
+  ];
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
+      {/* Background Carousel */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png" 
-          alt="Dhauladhar mountain range view from Aurora Farmstay" 
-          className="w-full h-full object-cover"
-        />
+        <Carousel 
+          opts={{
+            loop: true,
+          }}
+          plugins={[
+            Autoplay({
+              delay: 5000,
+            }),
+          ]}
+          className="w-full h-full"
+        >
+          <CarouselContent className="w-full h-full">
+            {heroImages.map((image, index) => (
+              <CarouselItem key={index} className="w-full h-full">
+                <img 
+                  src={image.src}
+                  alt={image.alt}
+                  className="w-full h-full object-cover"
+                />
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="left-4 bg-white/20 border-white/30 text-white hover:bg-white/30" />
+          <CarouselNext className="right-4 bg-white/20 border-white/30 text-white hover:bg-white/30" />
+        </Carousel>
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
       </div>
       
