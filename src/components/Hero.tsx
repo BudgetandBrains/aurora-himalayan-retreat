@@ -44,7 +44,7 @@ const Hero = () => {
                 <img 
                   src={image.src}
                   alt={image.alt}
-                  className={`w-full h-full ${index === 0 ? 'object-cover object-center scale-110' : 'object-cover'}`}
+                  className="w-full h-full object-cover"
                 />
               </CarouselItem>
             ))}
