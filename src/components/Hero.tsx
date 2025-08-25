@@ -36,7 +36,7 @@ const Hero = () => {
               delay: 5000,
             }),
           ]}
-          className="w-full h-full [&_.embla\_\_slide]:opacity-0 [&_.embla\_\_slide.is-snapped]:opacity-100 [&_.embla\_\_slide]:transition-opacity [&_.embla\_\_slide]:duration-1000"
+          className="w-full h-full"
         >
           <CarouselContent className="w-full h-full">
             {heroImages.map((image, index) => (
