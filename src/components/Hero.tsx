@@ -58,10 +58,10 @@ const Hero = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-2 text-balance">
+        <h1 className="font-bodoni text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-2 text-balance">
           Aurora Farmstay
         </h1>
-        <p className="font-bodoni text-2xl md:text-3xl lg:text-4xl font-medium text-white/90 mb-8 text-balance">
+        <p className="font-bodoni text-2xl md:text-3xl lg:text-4xl font-medium text-white/90 mb-8 text-balance tracking-[0.2em]">
           PALAMPUR
         </p>
         <p className="font-display text-xl md:text-2xl lg:text-3xl text-white/90 mb-8 text-balance">
