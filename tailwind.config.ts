@@ -22,6 +22,7 @@ export default {
 				display: ['Playfair Display', 'serif'],
 				body: ['Inter', 'sans-serif'],
 				'bodoni': ['Bodoni Moda SC', 'serif'],
+				'bodoni-regular': ['Bodoni Moda', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
