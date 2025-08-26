@@ -21,6 +21,7 @@ export default {
 			fontFamily: {
 				display: ['Playfair Display', 'serif'],
 				body: ['Inter', 'sans-serif'],
+				'bodoni': ['Bodoni Moda SC', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

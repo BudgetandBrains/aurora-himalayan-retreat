@@ -61,8 +61,8 @@ const Hero = () => {
         <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-2 text-balance">
           Aurora Farmstay
         </h1>
-        <p className="font-display text-2xl md:text-3xl lg:text-4xl font-light text-white/90 mb-4 text-balance">
-          Palampur
+        <p className="font-bodoni text-2xl md:text-3xl lg:text-4xl font-medium text-white/90 mb-8 text-balance">
+          PALAMPUR
         </p>
         <p className="font-display text-xl md:text-2xl lg:text-3xl text-white/90 mb-8 text-balance">
           Your Home in the Himalayan Foothills
