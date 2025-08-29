@@ -4,10 +4,34 @@ import libraryLounge from "@/assets/library-lounge.jpg";
 
 const experiences = [
   {
-    title: "Sip chai by the window with mountain views",
-    description: "Start your mornings with traditional chai while gazing at the majestic Dhauladhar peaks through panoramic windows.",
-    image: chaiMountainView,
-    alt: "Enjoying chai with stunning mountain views"
+    title: "Paragliding in Bir",
+    description: "Soar through the skies with world-class paragliding in Bir, renowned as one of India's premier flying destinations.",
+    image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
+    alt: "Paragliding adventure in Bir with mountain views"
+  },
+  {
+    title: "Vegetable planting & harvesting activities",
+    description: "Get your hands dirty with authentic farm experiences - plant, tend, and harvest fresh organic vegetables.",
+    image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
+    alt: "Farm activities and vegetable harvesting"
+  },
+  {
+    title: "Visit Wah Tea Estate & tea tasting",
+    description: "Explore the nearby Wah tea estate and indulge in authentic tea tasting sessions amidst scenic plantations.",
+    image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
+    alt: "Tea tasting at Wah tea estate"
+  },
+  {
+    title: "Tea factory tour",
+    description: "Discover the fascinating process of tea production with guided tours through traditional tea processing facilities.",
+    image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
+    alt: "Traditional tea factory tour experience"
+  },
+  {
+    title: "Visit Andretta Artists Village",
+    description: "Immerse yourself in the creative spirit of Andretta, a charming artists' village known for its pottery and artistic heritage.",
+    image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
+    alt: "Andretta artists village pottery and art"
   },
   {
     title: "Walk through nearby villages & fields",
