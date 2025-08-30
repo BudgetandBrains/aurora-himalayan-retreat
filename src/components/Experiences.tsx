@@ -6,8 +6,8 @@ const experiences = [
   {
     title: "Paragliding in Bir",
     description: "Soar through the skies with world-class paragliding in Bir, renowned as one of India's premier flying destinations.",
-    image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
-    alt: "Paragliding adventure in Bir with mountain views"
+    image: "/lovable-uploads/fac6eb17-31f5-435a-97f7-8b7f8fc8c015.png",
+    alt: "Paragliding with moon over Himalayan mountains"
   },
   {
     title: "Organic Farming",
@@ -16,16 +16,10 @@ const experiences = [
     alt: "Farm activities and vegetable harvesting"
   },
   {
-    title: "Visit Wah Tea Estate & tea tasting",
-    description: "Explore the nearby Wah tea estate and indulge in authentic tea tasting sessions amidst scenic plantations.",
+    title: "Wah Tea Estate Visit & Factory Tour",
+    description: "Explore the nearby Wah tea estate and discover the fascinating process of tea production with guided tours through traditional processing facilities, plus authentic tea tasting sessions.",
     image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
-    alt: "Tea tasting at Wah tea estate"
-  },
-  {
-    title: "Tea factory tour",
-    description: "Discover the fascinating process of tea production with guided tours through traditional tea processing facilities.",
-    image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
-    alt: "Traditional tea factory tour experience"
+    alt: "Tea estate visit and factory tour experience"
   },
   {
     title: "Visit Andretta Artists Village",
