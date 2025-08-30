@@ -33,10 +33,10 @@ const RetreatsPage = () => {
               <Card className="border-2 border-primary/20 shadow-warm">
                 <CardHeader className="text-center">
                   <CardTitle className="font-display text-2xl font-bold text-foreground mb-2">
-                    Attend the Next Retreat
+                    Advanced Meditation Program
                   </CardTitle>
                   <CardDescription className="text-lg">
-                    Join our upcoming guided retreats led by experienced facilitators
+                    With Dr. Anish Dua & Dr. Rachna Khanna
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-6">
@@ -50,20 +50,20 @@ const RetreatsPage = () => {
                   
                   <div className="space-y-4">
                     <h3 className="font-display text-xl font-semibold text-foreground">
-                      What to Expect
+                      Program Highlights
                     </h3>
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start">
-                        <span className="text-primary mr-2">•</span>
-                        Daily meditation sessions with mountain views
+                        <span className="text-primary mr-2">🧘</span>
+                        Periods of Silence that gently settle the mind
                       </li>
                       <li className="flex items-start">
-                        <span className="text-primary mr-2">•</span>
-                        Art workshops using natural materials
+                        <span className="text-primary mr-2">🧘</span>
+                        Deep Meditations in tranquil hall overlooking the mountains
                       </li>
                       <li className="flex items-start">
-                        <span className="text-primary mr-2">•</span>
-                        Mindful nature walks through village fields
+                        <span className="text-primary mr-2">🌳</span>
+                        Rejuvenating riverside nature walk
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
@@ -71,21 +71,25 @@ const RetreatsPage = () => {
                       </li>
                       <li className="flex items-start">
                         <span className="text-primary mr-2">•</span>
-                        Evening reflection and journaling sessions
+                        Peaceful mountain setting at Aurora Farmstay
                       </li>
                     </ul>
                   </div>
                   
                   <div className="bg-muted/30 p-4 rounded-lg">
-                    <h4 className="font-semibold text-foreground mb-2">Next Retreat Dates</h4>
-                    <p className="text-muted-foreground mb-2">March 15-22, 2024 (7 days)</p>
-                    <p className="text-muted-foreground mb-4">Limited to 12 participants</p>
+                    <h4 className="font-semibold text-foreground mb-2">Retreat Details</h4>
+                    <div className="space-y-2 text-muted-foreground mb-4">
+                      <p><strong>Dates:</strong> 12-14 September 2025</p>
+                      <p><strong>Arrival:</strong> 11th Sept (Thursday) evening at or after 4 pm</p>
+                      <p><strong>Departure:</strong> 14th Sept at 3 pm</p>
+                      <p><strong>Venue:</strong> Aurora Farmstay, Bharwana, Palampur, HP</p>
+                    </div>
                     <div className="flex flex-col sm:flex-row gap-3">
                       <Button className="flex-1">
-                        Book Your Spot
+                        Register Now
                       </Button>
                       <Button variant="outline" className="flex-1">
-                        Download Brochure
+                        More Details
                       </Button>
                     </div>
                   </div>
