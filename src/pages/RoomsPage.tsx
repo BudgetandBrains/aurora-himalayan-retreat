@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Wifi, Tv, Coffee, BookOpen, Mountain, Bath } from "lucide-react";
+import { CheckCircle, Wifi, Tv, Coffee, BookOpen, Mountain, Bath, IndianRupee, Percent } from "lucide-react";
 
 const RoomsPage = () => {
   const roomFeatures = [
@@ -196,6 +196,104 @@ const RoomsPage = () => {
                         <span>Dedicated study table</span>
                       </li>
                     </ul>
+                  </CardContent>
+                </Card>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Tariff Section */}
+        <section className="py-16 bg-muted/20">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <div className="text-center mb-12">
+                <h2 className="font-display text-3xl lg:text-4xl font-bold text-foreground mb-4">
+                  Room Tariff
+                </h2>
+                <p className="text-lg text-muted-foreground">
+                  Competitive rates for your comfortable stay
+                </p>
+              </div>
+              
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
+                <Card className="border-muted/20 relative overflow-hidden">
+                  <CardContent className="p-8">
+                    <div className="flex items-center space-x-3 mb-6">
+                      <IndianRupee className="w-6 h-6 text-primary" />
+                      <h3 className="font-display text-2xl font-bold text-foreground">
+                        Premium Room - Double Occupancy
+                      </h3>
+                    </div>
+                    <div className="space-y-3">
+                      <div className="flex items-baseline space-x-2">
+                        <span className="text-3xl font-bold text-foreground">₹6,000</span>
+                        <span className="text-muted-foreground">per night</span>
+                      </div>
+                      <p className="text-muted-foreground">
+                        Perfect for couples seeking luxury and comfort
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card className="border-muted/20 relative overflow-hidden">
+                  <CardContent className="p-8">
+                    <div className="flex items-center space-x-3 mb-6">
+                      <IndianRupee className="w-6 h-6 text-primary" />
+                      <h3 className="font-display text-2xl font-bold text-foreground">
+                        Premium Room - Single Occupancy
+                      </h3>
+                    </div>
+                    <div className="space-y-3">
+                      <div className="flex items-baseline space-x-2">
+                        <span className="text-3xl font-bold text-foreground">₹5,500</span>
+                        <span className="text-muted-foreground">per night</span>
+                      </div>
+                      <p className="text-muted-foreground">
+                        Ideal for solo travelers and business guests
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
+
+              <div className="text-center space-y-6">
+                <Card className="border-primary/20 bg-primary/5">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center space-x-3 mb-4">
+                      <Percent className="w-6 h-6 text-primary" />
+                      <h3 className="font-display text-2xl font-bold text-primary">
+                        Inaugural Discount - 25% Off
+                      </h3>
+                    </div>
+                    <p className="text-lg text-muted-foreground mb-4">
+                      Celebrate our opening with exclusive savings on your stay
+                    </p>
+                    <div className="flex items-center justify-center space-x-6">
+                      <div className="text-center">
+                        <div className="text-lg font-semibold text-muted-foreground line-through">₹6,000</div>
+                        <div className="text-2xl font-bold text-primary">₹4,500</div>
+                        <div className="text-sm text-muted-foreground">Double Occupancy</div>
+                      </div>
+                      <div className="w-px h-12 bg-border"></div>
+                      <div className="text-center">
+                        <div className="text-lg font-semibold text-muted-foreground line-through">₹5,500</div>
+                        <div className="text-2xl font-bold text-primary">₹4,125</div>
+                        <div className="text-sm text-muted-foreground">Single Occupancy</div>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+                
+                <Card className="border-muted/20">
+                  <CardContent className="p-6">
+                    <div className="flex items-center justify-center space-x-3">
+                      <Coffee className="w-5 h-5 text-primary" />
+                      <p className="text-lg font-semibold text-foreground">
+                        Tariff is inclusive of breakfast
+                      </p>
+                    </div>
                   </CardContent>
                 </Card>
               </div>
