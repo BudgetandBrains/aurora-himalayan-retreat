@@ -42,8 +42,8 @@ const RetreatsPage = () => {
                 <CardContent className="space-y-6">
                   <div className="aspect-video overflow-hidden rounded-lg">
                     <img
-                      src={libraryLounge}
-                      alt="Peaceful meditation space at Aurora Farmstay"
+                      src="/lovable-uploads/3282edb4-8816-454d-a978-7a85d83ef011.png"
+                      alt="Previous meditation retreat participants at Aurora Farmstay"
                       className="w-full h-full object-cover"
                     />
                   </div>
