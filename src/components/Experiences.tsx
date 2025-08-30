@@ -10,9 +10,9 @@ const experiences = [
     alt: "Paragliding adventure in Bir with mountain views"
   },
   {
-    title: "Vegetable planting & harvesting activities",
+    title: "Organic Farming",
     description: "Get your hands dirty with authentic farm experiences - plant, tend, and harvest fresh organic vegetables.",
-    image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
+    image: "/lovable-uploads/7395cdf3-ecc5-4a9d-bd73-7e13a7344b95.png",
     alt: "Farm activities and vegetable harvesting"
   },
   {
@@ -36,13 +36,13 @@ const experiences = [
   {
     title: "Walk through nearby villages & fields",
     description: "Explore authentic village life and walk through emerald fields that surround our peaceful retreat.",
-    image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
+    image: "/lovable-uploads/8938ff71-1413-4040-a391-41122cbaf113.png",
     alt: "Walking through village fields with mountain views"
   },
   {
     title: "Swim in the mountain stream",
     description: "Refresh yourself in the crystal-clear mountain stream that flows naturally through our property.",
-    image: mountainStream,
+    image: "/lovable-uploads/bb36118c-7390-402f-bb7d-d1cfbb05ce7f.png",
     alt: "Swimming in pristine mountain stream"
   },
   {
