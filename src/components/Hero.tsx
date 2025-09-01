@@ -45,7 +45,7 @@ const Hero = () => {
                 <img 
                   src={image.src}
                   alt={image.alt}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover sm:object-center object-[center_30%]"
                 />
               </CarouselItem>
             ))}
