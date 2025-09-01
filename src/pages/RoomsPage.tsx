@@ -161,7 +161,7 @@ const RoomsPage = () => {
                     </div>
                     <div className="space-y-3">
                       <div className="flex items-baseline space-x-2">
-                        <span className="text-3xl font-bold text-foreground">₹6,000</span>
+                        <span className="text-3xl font-bold text-foreground">₹5,500</span>
                         <span className="text-muted-foreground">per night</span>
                       </div>
                       <p className="text-muted-foreground">
@@ -181,7 +181,7 @@ const RoomsPage = () => {
                     </div>
                     <div className="space-y-3">
                       <div className="flex items-baseline space-x-2">
-                        <span className="text-3xl font-bold text-foreground">₹5,500</span>
+                        <span className="text-3xl font-bold text-foreground">₹5,000</span>
                         <span className="text-muted-foreground">per night</span>
                       </div>
                       <p className="text-muted-foreground">
@@ -198,7 +198,7 @@ const RoomsPage = () => {
                     <div className="flex items-center justify-center space-x-3 mb-4">
                       <Percent className="w-6 h-6 text-primary" />
                       <h3 className="font-display text-2xl font-bold text-primary">
-                        Inaugural Discount - 25% Off
+                        Inaugural Discount - 15% Off
                       </h3>
                     </div>
                     <p className="text-lg text-muted-foreground mb-4">
@@ -206,14 +206,14 @@ const RoomsPage = () => {
                     </p>
                     <div className="flex items-center justify-center space-x-6">
                       <div className="text-center">
-                        <div className="text-lg font-semibold text-muted-foreground line-through">₹6,000</div>
-                        <div className="text-2xl font-bold text-primary">₹4,500</div>
+                        <div className="text-lg font-semibold text-muted-foreground line-through">₹5,500</div>
+                        <div className="text-2xl font-bold text-primary">₹4,675</div>
                         <div className="text-sm text-muted-foreground">Double Occupancy</div>
                       </div>
                       <div className="w-px h-12 bg-border"></div>
                       <div className="text-center">
-                        <div className="text-lg font-semibold text-muted-foreground line-through">₹5,500</div>
-                        <div className="text-2xl font-bold text-primary">₹4,125</div>
+                        <div className="text-lg font-semibold text-muted-foreground line-through">₹5,000</div>
+                        <div className="text-2xl font-bold text-primary">₹4,250</div>
                         <div className="text-sm text-muted-foreground">Single Occupancy</div>
                       </div>
                     </div>
