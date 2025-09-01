@@ -75,8 +75,10 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">WhatsApp</h4>
                     <p className="text-muted-foreground">Quick responses for booking inquiries</p>
-                    <Button variant="earth" size="sm" className="mt-2">
-                      Chat on WhatsApp
+                    <Button variant="earth" size="sm" className="mt-2" asChild>
+                      <a href="https://wa.me/917011325322" target="_blank" rel="noopener noreferrer">
+                        Chat on WhatsApp
+                      </a>
                     </Button>
                   </div>
                 </div>
@@ -87,9 +89,11 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Call Us</h4>
-                    <p className="text-muted-foreground">Direct line for immediate assistance</p>
-                    <Button variant="earth" size="sm" className="mt-2">
-                      Call Now
+                    <p className="text-muted-foreground">+91 70113 25322 | +91 9805969923</p>
+                    <Button variant="earth" size="sm" className="mt-2" asChild>
+                      <a href="tel:+917011325322">
+                        Call Now
+                      </a>
                     </Button>
                   </div>
                 </div>
@@ -100,7 +104,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                    <p className="text-muted-foreground">hello@aurorafarmstay.com</p>
+                    <p className="text-muted-foreground">aurorafarmstay.hp@gmail.com</p>
                   </div>
                 </div>
                 
