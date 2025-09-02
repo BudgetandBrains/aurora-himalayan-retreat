@@ -25,11 +25,8 @@ const Navigation = () => {
             <Link to="/rooms" className="text-foreground hover:text-primary transition-colors">
               Rooms
             </Link>
-            <Link to="/book" className="text-foreground hover:text-primary transition-colors">
-              Book a Stay
-            </Link>
             <Button asChild variant="default" size="sm">
-              <Link to="/book">Book Now</Link>
+              <Link to="/book">Book a Stay</Link>
             </Button>
           </div>
 
