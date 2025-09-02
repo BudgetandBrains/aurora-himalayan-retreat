@@ -25,6 +25,9 @@ const Navigation = () => {
             <Link to="/rooms" className="text-foreground hover:text-primary transition-colors">
               Rooms
             </Link>
+            <Link to="/gallery" className="text-foreground hover:text-primary transition-colors">
+              Gallery
+            </Link>
             <Button asChild variant="default" size="sm">
               <Link to="/book">Book a Stay</Link>
             </Button>
@@ -65,6 +68,13 @@ const Navigation = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Rooms
+              </Link>
+              <Link
+                to="/gallery"
+                className="text-foreground hover:text-primary transition-colors px-4 py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Gallery
               </Link>
               <Link
                 to="/book"
