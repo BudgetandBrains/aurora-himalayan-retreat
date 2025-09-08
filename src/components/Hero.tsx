@@ -25,9 +25,9 @@ const Hero = () => {
   ];
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden">
       {/* Background Carousel */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 w-full h-full">
         <Carousel 
           opts={{
             loop: true,
@@ -45,7 +45,7 @@ const Hero = () => {
                 <img 
                   src={image.src}
                   alt={image.alt}
-                  className="w-full h-full object-cover sm:object-center object-[center_30%]"
+                  className="w-full h-full object-cover object-center"
                 />
               </CarouselItem>
             ))}
