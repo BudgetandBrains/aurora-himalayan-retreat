@@ -53,7 +53,7 @@ const Hero = () => {
           <CarouselPrevious className="left-4 bg-white/20 border-white/30 text-white hover:bg-white/30" />
           <CarouselNext className="right-4 bg-white/20 border-white/30 text-white hover:bg-white/30" />
         </Carousel>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50 sm:from-black/30 sm:via-black/20 sm:to-black/40" />
       </div>
       
       {/* Content */}
