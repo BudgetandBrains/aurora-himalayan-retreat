@@ -42,11 +42,13 @@ const Hero = () => {
           <CarouselContent className="w-full h-full">
             {heroImages.map((image, index) => (
               <CarouselItem key={index} className="w-full h-full">
-                <img 
-                  src={image.src}
-                  alt={image.alt}
-                  className="w-full h-full object-cover object-center"
-                />
+                <div className="relative w-full h-screen">
+                  <img 
+                    src={image.src}
+                    alt={image.alt}
+                    className="w-full h-full object-cover object-center"
+                  />
+                </div>
               </CarouselItem>
             ))}
           </CarouselContent>
