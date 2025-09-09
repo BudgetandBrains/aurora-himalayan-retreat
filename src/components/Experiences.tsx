@@ -5,7 +5,7 @@ import libraryLounge from "@/assets/library-lounge.jpg";
 const experiences = [
   {
     title: "Paragliding in Bir",
-    description: "Soar through the skies with world-class paragliding in Bir, renowned as one of India's premier flying destinations.",
+    description: "Soar through the skies with world-class paragliding in Bir, renowned as one of the world's premier flying destinations. This is a must-do activity in life for everyone seeking an unforgettable adventure.",
     image: "/lovable-uploads/fac6eb17-31f5-435a-97f7-8b7f8fc8c015.png",
     alt: "Paragliding with moon over Himalayan mountains"
   },
@@ -16,8 +16,8 @@ const experiences = [
     alt: "Farm activities and vegetable harvesting"
   },
   {
-    title: "Wah Tea Estate Visit & Factory Tour",
-    description: "Explore the nearby Wah tea estate and discover the fascinating process of tea production with guided tours through traditional processing facilities, plus authentic tea tasting sessions.",
+    title: "Tea Estate Visit & Factory Tour",
+    description: "Explore the nearby tea estate and discover the fascinating process of tea production with guided tours through traditional processing facilities, plus authentic tea tasting sessions.",
     image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
     alt: "Tea estate visit and factory tour experience"
   },
@@ -35,13 +35,13 @@ const experiences = [
   },
   {
     title: "Swim in the mountain stream",
-    description: "Refresh yourself in the crystal-clear mountain stream that flows naturally through our property.",
+    description: "Refresh yourself in the crystal-clear mountain stream that flows naturally by our property.",
     image: "/lovable-uploads/bb36118c-7390-402f-bb7d-d1cfbb05ce7f.png",
     alt: "Swimming in pristine mountain stream"
   },
   {
     title: "Read and reflect in the library lounge",
-    description: "Find your perfect reading spot in our extensive library, designed for contemplation and creativity.",
+    description: "Our lounge and adjoining covered terrace provide a cosy sit-in for quiet reading. Our collection ranges from fiction, biographies, self-help, history and philosophy, including Hindi books. We also have board games and indoor games for moments of laughter with family and friends.",
     image: libraryLounge,
     alt: "Cozy library lounge for reading and reflection"
   },
