@@ -46,6 +46,12 @@ const experiences = [
     alt: "Cozy library lounge for reading and reflection"
   },
   {
+    title: "Meditation and Yoga Sessions",
+    description: "Join our in-house teachers for daily meditation and yoga sessions in our serene mountain setting, or participate in our regularly held retreats for deeper practice.",
+    image: "/lovable-uploads/1a04114c-74b2-4069-ac3a-1d94b22c5b17.png",
+    alt: "Group yoga and meditation session with mountain views"
+  },
+  {
     title: "Stargaze from the rooftop",
     description: "Experience the wonder of unpolluted night skies from our rooftop terrace, perfect for stargazing.",
     image: "/lovable-uploads/9fe33e62-beff-4bdc-b8c7-8910c1fe136d.png",
