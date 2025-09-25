@@ -4,16 +4,40 @@ import libraryLounge from "@/assets/library-lounge.jpg";
 
 const experiences = [
   {
-    title: "Paragliding in Bir",
-    description: "Soar through the skies with world-class paragliding in Bir, renowned as one of the world's premier flying destinations. This is a must-do activity in life for everyone seeking an unforgettable adventure.",
-    image: "/lovable-uploads/fac6eb17-31f5-435a-97f7-8b7f8fc8c015.png",
-    alt: "Paragliding with moon over Himalayan mountains"
-  },
-  {
     title: "Organic Farming",
     description: "Get your hands dirty with authentic farm experiences - plant, tend, and harvest fresh organic vegetables.",
     image: "/lovable-uploads/7395cdf3-ecc5-4a9d-bd73-7e13a7344b95.png",
     alt: "Farm activities and vegetable harvesting"
+  },
+  {
+    title: "Swim in the mountain stream",
+    description: "Refresh yourself in the crystal-clear mountain stream that flows naturally by our property.",
+    image: "/lovable-uploads/bb36118c-7390-402f-bb7d-d1cfbb05ce7f.png",
+    alt: "Swimming in pristine mountain stream"
+  },
+  {
+    title: "Meditation and Yoga Sessions",
+    description: "Join our in-house teachers for daily meditation and yoga sessions in our serene mountain setting, or participate in our regularly held retreats for deeper practice.",
+    image: "/lovable-uploads/1a04114c-74b2-4069-ac3a-1d94b22c5b17.png",
+    alt: "Group yoga and meditation session with mountain views"
+  },
+  {
+    title: "Read and reflect in the library lounge",
+    description: "Our lounge and adjoining covered terrace provide a cosy sit-in for quiet reading. Our collection ranges from fiction, biographies, self-help, history and philosophy, including Hindi books. We also have board games and indoor games for moments of laughter with family and friends.",
+    image: libraryLounge,
+    alt: "Cozy library lounge for reading and reflection"
+  },
+  {
+    title: "Explore surrounding villages and fields",
+    description: "Explore authentic village life and walk through emerald fields that surround our peaceful retreat.",
+    image: "/lovable-uploads/8938ff71-1413-4040-a391-41122cbaf113.png",
+    alt: "Walking through village fields with mountain views"
+  },
+  {
+    title: "Paragliding in Bir",
+    description: "Soar through the skies with world-class paragliding in Bir, renowned as one of the world's premier flying destinations. This is a must-do activity in life for everyone seeking an unforgettable adventure.",
+    image: "/lovable-uploads/fac6eb17-31f5-435a-97f7-8b7f8fc8c015.png",
+    alt: "Paragliding with moon over Himalayan mountains"
   },
   {
     title: "Tea Estate Visit & Factory Tour",
@@ -32,36 +56,6 @@ const experiences = [
     description: "Visit the magnificent 13th-century Shiva temple at Baijnath, one of the most significant historical temples in the region with exquisite stone architecture.",
     image: "/lovable-uploads/DSC02979.jpg",
     alt: "Ancient Shiva Temple at Baijnath with stone architecture"
-  },
-  {
-    title: "Walk through nearby villages & fields",
-    description: "Explore authentic village life and walk through emerald fields that surround our peaceful retreat.",
-    image: "/lovable-uploads/8938ff71-1413-4040-a391-41122cbaf113.png",
-    alt: "Walking through village fields with mountain views"
-  },
-  {
-    title: "Swim in the mountain stream",
-    description: "Refresh yourself in the crystal-clear mountain stream that flows naturally by our property.",
-    image: "/lovable-uploads/bb36118c-7390-402f-bb7d-d1cfbb05ce7f.png",
-    alt: "Swimming in pristine mountain stream"
-  },
-  {
-    title: "Read and reflect in the library lounge",
-    description: "Our lounge and adjoining covered terrace provide a cosy sit-in for quiet reading. Our collection ranges from fiction, biographies, self-help, history and philosophy, including Hindi books. We also have board games and indoor games for moments of laughter with family and friends.",
-    image: libraryLounge,
-    alt: "Cozy library lounge for reading and reflection"
-  },
-  {
-    title: "Meditation and Yoga Sessions",
-    description: "Join our in-house teachers for daily meditation and yoga sessions in our serene mountain setting, or participate in our regularly held retreats for deeper practice.",
-    image: "/lovable-uploads/1a04114c-74b2-4069-ac3a-1d94b22c5b17.png",
-    alt: "Group yoga and meditation session with mountain views"
-  },
-  {
-    title: "Stargaze from the rooftop",
-    description: "Experience the wonder of unpolluted night skies from our rooftop terrace, perfect for stargazing.",
-    image: "/lovable-uploads/9fe33e62-beff-4bdc-b8c7-8910c1fe136d.png",
-    alt: "Aurora Farmstay rooftop and aerial view"
   }
 ];
 
