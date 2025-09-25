@@ -31,7 +31,7 @@ const Footer = () => {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-secondary-foreground/60" />
                 <div>
-                  <p>Village Bhuana, Palampur</p>
+                  <p>Village Bharwana, Palampur</p>
                   <p>Himachal Pradesh, India</p>
                 </div>
               </div>
@@ -41,7 +41,10 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-secondary-foreground/60" />
-                <p>+91 70113 25322</p>
+                <div>
+                  <p>+91 70113 25322</p>
+                  <p>+91 98059 69923</p>
+                </div>
               </div>
             </div>
           </div>

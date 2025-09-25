@@ -200,7 +200,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Call Us</h4>
-                    <p className="text-muted-foreground">+91 70113 25322 | +91 9805969923</p>
+                    <p className="text-muted-foreground">+91 70113 25322 | +91 98059 69923</p>
                     <Button variant="earth" size="sm" className="mt-2" asChild>
                       <a href="tel:+917011325322">
                         Call Now
@@ -226,7 +226,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Location</h4>
                     <p className="text-muted-foreground">
-                      Village Bhuana, Palampur<br />
+                      Village Bharwana, Palampur<br />
                       Himachal Pradesh, India
                     </p>
                   </div>
