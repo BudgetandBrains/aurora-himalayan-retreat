@@ -1,4 +1,4 @@
-import { MapPin, Mail, Phone, Instagram, Facebook, Twitter } from "lucide-react";
+import { MapPin, Mail, Phone, Instagram, Map } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -15,14 +15,11 @@ const Footer = () => {
               Experience the tranquility of mountain life with modern comforts.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-secondary-foreground/10 rounded-full flex items-center justify-center hover:bg-secondary-foreground/20 transition-colors">
+              <a href="https://www.instagram.com/aurora.farmstay" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-secondary-foreground/10 rounded-full flex items-center justify-center hover:bg-secondary-foreground/20 transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-secondary-foreground/10 rounded-full flex items-center justify-center hover:bg-secondary-foreground/20 transition-colors">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-secondary-foreground/10 rounded-full flex items-center justify-center hover:bg-secondary-foreground/20 transition-colors">
-                <Twitter className="w-5 h-5" />
+              <a href="https://maps.app.goo.gl/bmYyE9WyDKuYTBrK9" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-secondary-foreground/10 rounded-full flex items-center justify-center hover:bg-secondary-foreground/20 transition-colors">
+                <Map className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -64,7 +61,7 @@ const Footer = () => {
         
         {/* Bottom Bar */}
         <div className="border-t border-secondary-foreground/20 mt-8 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-secondary-foreground/70">
-          <p>&copy; 2024 Aurora Farmstay. All rights reserved.</p>
+          <p>&copy; 2025 Aurora Farmstay. All rights reserved.</p>
           <p className="font-medium">
             Note: Aurora Farmstay is a vegetarian, no-liquor property
           </p>

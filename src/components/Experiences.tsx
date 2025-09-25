@@ -54,7 +54,7 @@ const experiences = [
   {
     title: "Ancient Shiva Temple, Baijnath",
     description: "Visit the magnificent 13th-century Shiva temple at Baijnath, one of the most significant historical temples in the region with exquisite stone architecture.",
-    image: "/lovable-uploads/DSC02979.jpg",
+    image: "/lovable-uploads/DSC02977.jpg",
     alt: "Ancient Shiva Temple at Baijnath with stone architecture"
   }
 ];
