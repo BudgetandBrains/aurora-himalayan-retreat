@@ -18,14 +18,20 @@ const experiences = [
   {
     title: "Tea Estate Visit & Factory Tour",
     description: "Explore the nearby tea estate and discover the fascinating process of tea production with guided tours through traditional processing facilities, plus authentic tea tasting sessions.",
-    image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
+    image: "/lovable-uploads/DSC02931.jpg",
     alt: "Tea estate visit and factory tour experience"
   },
   {
     title: "Visit Andretta Artists Village",
     description: "Immerse yourself in the creative spirit of Andretta, a charming artists' village known for its pottery and artistic heritage.",
-    image: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
+    image: "/lovable-uploads/IMG_20250925_131408.jpg",
     alt: "Andretta artists village pottery and art"
+  },
+  {
+    title: "Ancient Shiva Temple, Baijnath",
+    description: "Visit the magnificent 13th-century Shiva temple at Baijnath, one of the most significant historical temples in the region with exquisite stone architecture.",
+    image: "/lovable-uploads/DSC02979.jpg",
+    alt: "Ancient Shiva Temple at Baijnath with stone architecture"
   },
   {
     title: "Walk through nearby villages & fields",

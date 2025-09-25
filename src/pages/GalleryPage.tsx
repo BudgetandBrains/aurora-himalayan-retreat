@@ -14,7 +14,8 @@ const GalleryPage = () => {
     "/lovable-uploads/b3efab16-676b-460e-9ded-33dd6089d412.png",
     "/lovable-uploads/bb36118c-7390-402f-bb7d-d1cfbb05ce7f.png",
     "/lovable-uploads/e8c0a26b-1fa5-49af-ae51-eafdd6488cfb.png",
-    "/lovable-uploads/fac6eb17-31f5-435a-97f7-8b7f8fc8c015.png"
+    "/lovable-uploads/fac6eb17-31f5-435a-97f7-8b7f8fc8c015.png",
+    "/lovable-uploads/DSC00310_i.jpg"
   ];
 
   return (
