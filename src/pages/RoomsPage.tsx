@@ -150,7 +150,7 @@ const RoomsPage = () => {
                 </p>
               </div>
               
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
                 <Card className="border-muted/20 relative overflow-hidden">
                   <CardContent className="p-8">
                     <div className="flex items-center space-x-3 mb-6">
@@ -164,9 +164,6 @@ const RoomsPage = () => {
                         <span className="text-3xl font-bold text-foreground">₹5,500</span>
                         <span className="text-muted-foreground">per night</span>
                       </div>
-                      <p className="text-muted-foreground">
-                        Perfect for couples seeking luxury and comfort
-                      </p>
                     </div>
                   </CardContent>
                 </Card>
@@ -184,9 +181,23 @@ const RoomsPage = () => {
                         <span className="text-3xl font-bold text-foreground">₹5,000</span>
                         <span className="text-muted-foreground">per night</span>
                       </div>
-                      <p className="text-muted-foreground">
-                        Ideal for solo travelers and business guests
-                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                <Card className="border-muted/20 relative overflow-hidden">
+                  <CardContent className="p-8">
+                    <div className="flex items-center space-x-3 mb-6">
+                      <IndianRupee className="w-6 h-6 text-primary" />
+                      <h3 className="font-display text-2xl font-bold text-foreground">
+                        Dorm (6 bed)
+                      </h3>
+                    </div>
+                    <div className="space-y-3">
+                      <div className="flex items-baseline space-x-2">
+                        <span className="text-3xl font-bold text-foreground">₹1,100</span>
+                        <span className="text-muted-foreground">per night</span>
+                      </div>
                     </div>
                   </CardContent>
                 </Card>
@@ -215,6 +226,12 @@ const RoomsPage = () => {
                         <div className="text-lg font-semibold text-muted-foreground line-through">₹5,000</div>
                         <div className="text-2xl font-bold text-primary">₹4,250</div>
                         <div className="text-sm text-muted-foreground">Single Occupancy</div>
+                      </div>
+                      <div className="w-px h-12 bg-border"></div>
+                      <div className="text-center">
+                        <div className="text-lg font-semibold text-muted-foreground line-through">₹1,100</div>
+                        <div className="text-2xl font-bold text-primary">₹935</div>
+                        <div className="text-sm text-muted-foreground">Dorm (6 bed)</div>
                       </div>
                     </div>
                   </CardContent>
