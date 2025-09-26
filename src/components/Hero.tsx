@@ -77,7 +77,7 @@ const Hero = () => {
           PALAMPUR
         </p>
         <p className="font-display text-xl md:text-2xl lg:text-3xl text-white/90 mb-8">
-          Your Home in the Himalayan Foothills
+          Your Happy Home in the Himalayan Foothills
         </p>
 
         <div className="flex justify-center">
