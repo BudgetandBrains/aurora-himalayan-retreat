@@ -69,7 +69,7 @@ const Hero = () => {
 
       {/* Foreground Content (still above carousel) */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <h1 className="font-bodoni-regular text-4xl md:text-6xl lg:text-7xl font-normal text-white mb-2">
+        <h1 className="font-bodoni-regular text-4xl md:text-6xl lg:text-7xl font-normal text-white mb-6">
           Aurora Farmstay<br />
           Yoga Retreat
         </h1>
