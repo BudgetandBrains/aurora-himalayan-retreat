@@ -70,7 +70,7 @@ const Hero = () => {
       {/* Foreground Content (still above carousel) */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="font-bodoni-regular text-4xl md:text-6xl lg:text-7xl font-normal text-white mb-2">
-          Aurora Farmstay
+          Aurora Farmstay Yoga Retreat
         </h1>
         <p className="font-bodoni text-2xl md:text-3xl lg:text-4xl text-white/90 mb-8 tracking-[0.2em]">
           PALAMPUR
@@ -79,16 +79,9 @@ const Hero = () => {
           Your Home in the Himalayan Foothills
         </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex justify-center">
           <Button asChild variant="hero" size="lg" className="text-lg px-8 py-6 min-w-[200px]">
             <Link to="/book">Book Your Stay</Link>
-          </Button>
-          <Button
-            variant="outline"
-            size="lg"
-            className="text-lg px-8 py-6 min-w-[200px] border-white/50 text-white bg-white/10 hover:bg-white/20 hover:text-white"
-          >
-            Explore Experiences
           </Button>
         </div>
       </div>
