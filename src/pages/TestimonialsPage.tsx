@@ -55,7 +55,7 @@ const TestimonialsPage = () => {
                   Google Reviews
                 </h3>
                 
-                <div className="grid gap-6 md:grid-cols-2">
+                <div className="grid gap-6">
                   <Card className="border-muted/20">
                     <CardContent className="p-6">
                       <img 
@@ -95,17 +95,17 @@ const TestimonialsPage = () => {
                       />
                     </CardContent>
                   </Card>
+                  
+                  <Card className="border-muted/20">
+                    <CardContent className="p-6">
+                      <img 
+                        src="/lovable-uploads/review-bhawna.png" 
+                        alt="Review by Bhawna Raheja - 5 star review about the place feeling like ideal home"
+                        className="w-full h-auto rounded-lg"
+                      />
+                    </CardContent>
+                  </Card>
                 </div>
-                
-                <Card className="border-muted/20 max-w-2xl mx-auto">
-                  <CardContent className="p-6">
-                    <img 
-                      src="/lovable-uploads/review-bhawna.png" 
-                      alt="Review by Bhawna Raheja - 5 star review about the place feeling like ideal home"
-                      className="w-full h-auto rounded-lg"
-                    />
-                  </CardContent>
-                </Card>
               </div>
             </div>
           </div>
