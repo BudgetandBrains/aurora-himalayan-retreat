@@ -48,6 +48,65 @@ const TestimonialsPage = () => {
                   </div>
                 </CardContent>
               </Card>
+
+              {/* Google Reviews */}
+              <div className="grid gap-6">
+                <h3 className="font-display text-2xl md:text-3xl font-bold text-center">
+                  Google Reviews
+                </h3>
+                
+                <div className="grid gap-6 md:grid-cols-2">
+                  <Card className="border-muted/20">
+                    <CardContent className="p-6">
+                      <img 
+                        src="/lovable-uploads/review-shivani.png" 
+                        alt="Review by Shivani Sharma - 5 star review about blissful experience"
+                        className="w-full h-auto rounded-lg"
+                      />
+                    </CardContent>
+                  </Card>
+                  
+                  <Card className="border-muted/20">
+                    <CardContent className="p-6">
+                      <img 
+                        src="/lovable-uploads/review-varun.png" 
+                        alt="Review by Varun Sharma - 5 star review in Hindi about Aurora Farmstay"
+                        className="w-full h-auto rounded-lg"
+                      />
+                    </CardContent>
+                  </Card>
+                  
+                  <Card className="border-muted/20">
+                    <CardContent className="p-6">
+                      <img 
+                        src="/lovable-uploads/review-raghvi.png" 
+                        alt="Review by Raghvi Rumpal - 5 star review about beautiful experience"
+                        className="w-full h-auto rounded-lg"
+                      />
+                    </CardContent>
+                  </Card>
+                  
+                  <Card className="border-muted/20">
+                    <CardContent className="p-6">
+                      <img 
+                        src="/lovable-uploads/review-kirti.png" 
+                        alt="Review by kirti thakur - 5 star review about feeling like home"
+                        className="w-full h-auto rounded-lg"
+                      />
+                    </CardContent>
+                  </Card>
+                </div>
+                
+                <Card className="border-muted/20 max-w-2xl mx-auto">
+                  <CardContent className="p-6">
+                    <img 
+                      src="/lovable-uploads/review-bhawna.png" 
+                      alt="Review by Bhawna Raheja - 5 star review about the place feeling like ideal home"
+                      className="w-full h-auto rounded-lg"
+                    />
+                  </CardContent>
+                </Card>
+              </div>
             </div>
           </div>
         </div>
