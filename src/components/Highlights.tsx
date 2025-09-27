@@ -2,14 +2,19 @@ import { Wifi, TreePine, MapPin, BookOpen, Clock, Utensils } from "lucide-react"
 
 const highlights = [
   {
-    icon: Wifi,
-    title: "Luxurious Rooms",
-    description: "42\" Smart TV and high-speed WiFi for modern comfort"
+    icon: Utensils,
+    title: "Saatvik Experience",
+    description: "Vegetarian cuisine and no liquor policy for pure living"
   },
   {
     icon: TreePine,
     title: "Natural Surroundings",
     description: "Surrounded by farms, forest, and mountain stream"
+  },
+  {
+    icon: Wifi,
+    title: "Luxurious Rooms",
+    description: "42\" Smart TV and high-speed WiFi for modern comfort"
   },
   {
     icon: MapPin,
@@ -25,11 +30,6 @@ const highlights = [
     icon: Clock,
     title: "Extended Stays Welcome",
     description: "Perfect for long stays, creative work, or peaceful getaways"
-  },
-  {
-    icon: Utensils,
-    title: "Saatvik Experience",
-    description: "Vegetarian cuisine and no liquor policy for pure living"
   }
 ];
 
