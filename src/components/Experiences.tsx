@@ -1,6 +1,6 @@
 import chaiMountainView from "@/assets/chai-mountain-view.jpg";
 import mountainStream from "@/assets/mountain-stream.jpg";
-import libraryLounge from "@/assets/library-lounge-new.jpg";
+import libraryLounge from "@/assets/library-lounge-updated.jpg";
 
 const experiences = [
   {

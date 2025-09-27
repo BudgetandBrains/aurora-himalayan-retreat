@@ -8,12 +8,17 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
+import heroLandscape from "@/assets/hero-landscape.jpg";
 
 const Hero = () => {
   const heroImages = [
     {
       src: "/lovable-uploads/e8c0a26b-1fa5-49af-ae51-eafdd6488cfb.png",
       alt: "Aerial view of Aurora Farmstay property with gardens and buildings",
+    },
+    {
+      src: heroLandscape,
+      alt: "Snow-capped Dhauladhar mountains overlooking green fields with villagers",
     },
     {
       src: "/lovable-uploads/877313b8-5f23-40e3-ae83-88d1665a4323.png",
