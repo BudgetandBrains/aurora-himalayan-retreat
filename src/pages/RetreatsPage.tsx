@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -5,6 +6,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import libraryLounge from "@/assets/library-lounge.jpg";
 
 const RetreatsPage = () => {
+  const [showEmail, setShowEmail] = useState(false);
+
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -79,17 +82,21 @@ const RetreatsPage = () => {
                   <div className="bg-muted/30 p-4 rounded-lg">
                     <h4 className="font-semibold text-foreground mb-2">Retreat Details</h4>
                     <div className="space-y-2 text-muted-foreground mb-4">
-                      <p><strong>Dates:</strong> 12-14 September 2025</p>
-                      <p><strong>Arrival:</strong> 11th Sept (Thursday) evening at or after 4 pm</p>
-                      <p><strong>Departure:</strong> 14th Sept at 3 pm</p>
+                      <p><strong>Dates:</strong> 13-16 November 2025</p>
                       <p><strong>Venue:</strong> Aurora Farmstay, Bharwana, Palampur, HP</p>
                     </div>
-                    <div className="flex flex-col sm:flex-row gap-3">
-                      <Button className="flex-1">
-                        Register Now
-                      </Button>
-                      <Button variant="outline" className="flex-1">
-                        More Details
+                    <div className="text-center">
+                      <Button 
+                        asChild
+                        className="bg-green-600 hover:bg-green-700 text-white"
+                      >
+                        <a 
+                          href="https://wa.me/919418075315" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                        >
+                          Contact us on WhatsApp
+                        </a>
                       </Button>
                     </div>
                   </div>
@@ -149,13 +156,18 @@ const RetreatsPage = () => {
                       We work with you to create the perfect retreat experience for your group, 
                       whether it's meditation, art, yoga, or wellness focused.
                     </p>
-                    <div className="flex flex-col sm:flex-row gap-3">
-                      <Button variant="secondary" className="flex-1">
-                        Get a Quote
+                    <div className="text-center">
+                      <Button 
+                        variant="secondary"
+                        onClick={() => setShowEmail(!showEmail)}
+                      >
+                        {showEmail ? 'Hide Email' : 'Get Our Email'}
                       </Button>
-                      <Button variant="outline" className="flex-1">
-                        Schedule Visit
-                      </Button>
+                      {showEmail && (
+                        <p className="mt-3 text-foreground font-medium">
+                          aurorafarmstay@gmail.com
+                        </p>
+                      )}
                     </div>
                   </div>
                 </CardContent>
