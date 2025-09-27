@@ -137,7 +137,7 @@ const RetreatsPage = () => {
                       </li>
                       <li className="flex items-start">
                         <span className="text-secondary mr-2">•</span>
-                        Fully equipped kitchen and dining areas
+                        Farm to fork, wholesome nutritious vegetarian meals
                       </li>
                       <li className="flex items-start">
                         <span className="text-secondary mr-2">•</span>
