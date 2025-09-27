@@ -91,7 +91,7 @@ const RetreatsPage = () => {
                         className="bg-green-600 hover:bg-green-700 text-white"
                       >
                         <a 
-                          href="https://wa.me/919418075315" 
+                          href="https://wa.me/919811048526" 
                           target="_blank" 
                           rel="noopener noreferrer"
                         >
@@ -165,7 +165,7 @@ const RetreatsPage = () => {
                       </Button>
                       {showEmail && (
                         <p className="mt-3 text-foreground font-medium">
-                          aurorafarmstay@gmail.com
+                          aurorafarmstay.hp@gmail.com
                         </p>
                       )}
                     </div>
