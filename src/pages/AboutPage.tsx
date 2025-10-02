@@ -1,6 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import farmstayExterior from "@/assets/farmstay-exterior.jpg";
+import familyPhoto from "@/assets/family-photo.jpg";
 
 const AboutPage = () => {
   return (
@@ -49,8 +49,8 @@ const AboutPage = () => {
               </div>
               <div className="lg:order-first">
                 <img
-                  src={farmstayExterior}
-                  alt="Aurora Farmstay exterior view with mountain backdrop"
+                  src={familyPhoto}
+                  alt="Aurora Farmstay hosts welcoming guests with mountain backdrop"
                   className="w-full h-[400px] object-cover rounded-2xl shadow-warm"
                 />
               </div>
