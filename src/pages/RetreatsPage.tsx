@@ -9,7 +9,7 @@ const RetreatsPage = () => {
   const [showEmail, setShowEmail] = useState(false);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-background via-earth-warm/20 to-background">
       <Navigation />
       <main className="pt-16">
         {/* Hero Section */}

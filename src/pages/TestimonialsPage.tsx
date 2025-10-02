@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const TestimonialsPage = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-br from-background via-earth-warm/20 to-background">
       <Navigation />
       
       {/* Hero Section */}
