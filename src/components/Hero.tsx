@@ -32,6 +32,10 @@ const Hero = () => {
       src: "/lovable-uploads/3a627053-8035-48dd-a4e0-093923144ff3.png",
       alt: "Sunset view over fields and Dhauladhar mountains from Aurora Farmstay",
     },
+    {
+      src: "/lovable-uploads/IMG20250701192223.jpg",
+      alt: "Serene mountain stream flowing through lush forest with Himalayan peaks",
+    },
   ];
 
   return (
