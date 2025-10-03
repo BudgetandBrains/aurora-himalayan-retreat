@@ -2,10 +2,28 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { useState } from "react";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
-import { X } from "lucide-react";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 const GalleryPage = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+
+  const openImage = (image: string, index: number) => {
+    setSelectedImage(image);
+    setCurrentIndex(index);
+  };
+
+  const goToPrevious = () => {
+    const newIndex = currentIndex > 0 ? currentIndex - 1 : galleryImages.length - 1;
+    setCurrentIndex(newIndex);
+    setSelectedImage(galleryImages[newIndex]);
+  };
+
+  const goToNext = () => {
+    const newIndex = currentIndex < galleryImages.length - 1 ? currentIndex + 1 : 0;
+    setCurrentIndex(newIndex);
+    setSelectedImage(galleryImages[newIndex]);
+  };
 
   const galleryImages = [
     "/lovable-uploads/266ff27b-5bd6-4b06-bf7f-5412f503d37f.png",
@@ -47,7 +65,7 @@ const GalleryPage = () => {
                 <div
                   key={index}
                   className="group relative aspect-square overflow-hidden rounded-lg shadow-soft hover:shadow-xl transition-all duration-300 cursor-pointer"
-                  onClick={() => setSelectedImage(image)}
+                  onClick={() => openImage(image, index)}
                 >
                   <img
                     src={image}
@@ -90,6 +108,25 @@ const GalleryPage = () => {
           >
             <X className="w-6 h-6 text-white" />
           </button>
+          
+          {/* Previous Button */}
+          <button
+            onClick={goToPrevious}
+            className="absolute left-4 top-1/2 -translate-y-1/2 z-50 p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+            aria-label="Previous image"
+          >
+            <ChevronLeft className="w-8 h-8 text-white" />
+          </button>
+
+          {/* Next Button */}
+          <button
+            onClick={goToNext}
+            className="absolute right-4 top-1/2 -translate-y-1/2 z-50 p-3 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+            aria-label="Next image"
+          >
+            <ChevronRight className="w-8 h-8 text-white" />
+          </button>
+
           {selectedImage && (
             <div className="flex items-center justify-center p-8">
               <img
