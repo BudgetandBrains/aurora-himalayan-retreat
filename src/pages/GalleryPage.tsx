@@ -32,7 +32,6 @@ const GalleryPage = () => {
     "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
     "/lovable-uploads/7395cdf3-ecc5-4a9d-bd73-7e13a7344b95.png",
     "/lovable-uploads/877313b8-5f23-40e3-ae83-88d1665a4323.png",
-    "/lovable-uploads/9fe33e62-beff-4bdc-b8c7-8910c1fe136d.png",
     "/lovable-uploads/b3efab16-676b-460e-9ded-33dd6089d412.png",
     "/lovable-uploads/bb36118c-7390-402f-bb7d-d1cfbb05ce7f.png",
     "/lovable-uploads/e8c0a26b-1fa5-49af-ae51-eafdd6488cfb.png",
@@ -49,11 +48,8 @@ const GalleryPage = () => {
         <section className="py-20 bg-gradient-hero">
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-display text-4xl md:text-6xl font-bold text-white mb-6">
-              Gallery
+              Photo Gallery
             </h1>
-            <p className="text-xl text-cream/90 max-w-2xl mx-auto">
-              Discover the beauty of Aurora Farmstay through our collection of moments
-            </p>
           </div>
         </section>
 
