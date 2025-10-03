@@ -100,10 +100,10 @@ const AboutPage = () => {
                   <span className="text-2xl">🤝</span>
                 </div>
                 <h3 className="font-display text-xl font-semibold text-foreground mb-3">
-                  Community
+                  Connection
                 </h3>
                 <p className="text-muted-foreground">
-                  Fostering connections between guests, locals, and the natural world around us.
+                  Fostering connection within ourselves, with each other, and with mother nature.
                 </p>
               </div>
             </div>
