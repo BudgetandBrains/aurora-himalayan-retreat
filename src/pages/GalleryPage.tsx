@@ -5,21 +5,21 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { X } from "lucide-react";
 
 const GalleryPage = () => {
-  const [selectedImage, setSelectedImage] = useState<{ src: string; caption: string } | null>(null);
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const galleryImages = [
-    { src: "/lovable-uploads/266ff27b-5bd6-4b06-bf7f-5412f503d37f.png", caption: "Stunning aerial view of Aurora Farmstay nestled in the Himalayan mountains" },
-    { src: "/lovable-uploads/3282edb4-8816-454d-a978-7a85d83ef011.png", caption: "Peaceful farmstay exterior surrounded by lush greenery" }, 
-    { src: "/lovable-uploads/3a627053-8035-48dd-a4e0-093923144ff3.png", caption: "Cozy indoor spaces with warm, natural lighting" },
-    { src: "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png", caption: "Comfortable guest room with mountain views" },
-    { src: "/lovable-uploads/7395cdf3-ecc5-4a9d-bd73-7e13a7344b95.png", caption: "Traditional Himalayan architecture meets modern comfort" },
-    { src: "/lovable-uploads/877313b8-5f23-40e3-ae83-88d1665a4323.png", caption: "Serene outdoor seating area perfect for relaxation" },
-    { src: "/lovable-uploads/9fe33e62-beff-4bdc-b8c7-8910c1fe136d.png", caption: "Inviting common areas for guests to gather" },
-    { src: "/lovable-uploads/b3efab16-676b-460e-9ded-33dd6089d412.png", caption: "Breathtaking mountain landscape views" },
-    { src: "/lovable-uploads/bb36118c-7390-402f-bb7d-d1cfbb05ce7f.png", caption: "Natural beauty surrounding the farmstay" },
-    { src: "/lovable-uploads/e8c0a26b-1fa5-49af-ae51-eafdd6488cfb.png", caption: "Peaceful pathways through the property" },
-    { src: "/lovable-uploads/fac6eb17-31f5-435a-97f7-8b7f8fc8c015.png", caption: "Charming details of the farmstay architecture" },
-    { src: "/lovable-uploads/DSC00310_i.jpg", caption: "Panoramic views of the surrounding valley" }
+    "/lovable-uploads/266ff27b-5bd6-4b06-bf7f-5412f503d37f.png",
+    "/lovable-uploads/3282edb4-8816-454d-a978-7a85d83ef011.png", 
+    "/lovable-uploads/3a627053-8035-48dd-a4e0-093923144ff3.png",
+    "/lovable-uploads/6e5f0fa4-56d3-497d-871e-f402c482bf5e.png",
+    "/lovable-uploads/7395cdf3-ecc5-4a9d-bd73-7e13a7344b95.png",
+    "/lovable-uploads/877313b8-5f23-40e3-ae83-88d1665a4323.png",
+    "/lovable-uploads/9fe33e62-beff-4bdc-b8c7-8910c1fe136d.png",
+    "/lovable-uploads/b3efab16-676b-460e-9ded-33dd6089d412.png",
+    "/lovable-uploads/bb36118c-7390-402f-bb7d-d1cfbb05ce7f.png",
+    "/lovable-uploads/e8c0a26b-1fa5-49af-ae51-eafdd6488cfb.png",
+    "/lovable-uploads/fac6eb17-31f5-435a-97f7-8b7f8fc8c015.png",
+    "/lovable-uploads/DSC00310_i.jpg"
   ];
 
   return (
@@ -50,8 +50,8 @@ const GalleryPage = () => {
                   onClick={() => setSelectedImage(image)}
                 >
                   <img
-                    src={image.src}
-                    alt={image.caption}
+                    src={image}
+                    alt={`Aurora Farmstay Gallery ${index + 1}`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />
@@ -91,15 +91,12 @@ const GalleryPage = () => {
             <X className="w-6 h-6 text-white" />
           </button>
           {selectedImage && (
-            <div className="flex flex-col items-center justify-center p-8">
+            <div className="flex items-center justify-center p-8">
               <img
-                src={selectedImage.src}
-                alt={selectedImage.caption}
-                className="max-h-[70vh] w-auto object-contain rounded-lg"
+                src={selectedImage}
+                alt="Aurora Farmstay"
+                className="max-h-[80vh] w-auto object-contain rounded-lg"
               />
-              <p className="mt-6 text-white text-lg text-center max-w-2xl">
-                {selectedImage.caption}
-              </p>
             </div>
           )}
         </DialogContent>
