@@ -36,6 +36,10 @@ const Hero = () => {
       src: "/lovable-uploads/IMG20250701192223.jpg",
       alt: "Serene mountain stream flowing through lush forest with Himalayan peaks",
     },
+    {
+      src: "/lovable-uploads/IMG20250711173850.jpg",
+      alt: "Person walking through vibrant green fields under dramatic monsoon clouds",
+    },
   ];
 
   return (
