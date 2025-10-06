@@ -145,9 +145,6 @@ const RoomsPage = () => {
                 <h2 className="font-display text-3xl lg:text-4xl font-bold text-foreground mb-4">
                   Room Tariff
                 </h2>
-                <p className="text-lg text-muted-foreground">
-                  Competitive rates for your comfortable stay
-                </p>
               </div>
               
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
