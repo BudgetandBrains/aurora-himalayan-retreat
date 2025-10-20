@@ -192,9 +192,10 @@ const RoomsPage = () => {
                     </div>
                     <div className="space-y-3">
                       <div className="flex items-baseline space-x-2">
-                        <span className="text-3xl font-bold text-foreground">₹1,100</span>
+                        <span className="text-3xl font-bold text-foreground">₹1,500</span>
                         <span className="text-muted-foreground">per night</span>
                       </div>
+                      <p className="text-sm text-muted-foreground">Exclusive of breakfast</p>
                     </div>
                   </CardContent>
                 </Card>
@@ -226,9 +227,9 @@ const RoomsPage = () => {
                       </div>
                       <div className="w-px h-12 bg-border"></div>
                       <div className="text-center">
-                        <div className="text-lg font-semibold text-muted-foreground line-through">₹1,100</div>
-                        <div className="text-2xl font-bold text-primary">₹935</div>
-                        <div className="text-sm text-muted-foreground">Dorm (6 bed)</div>
+                        <div className="text-lg font-semibold text-muted-foreground line-through">₹1,500</div>
+                        <div className="text-2xl font-bold text-primary">₹1,275</div>
+                        <div className="text-sm text-muted-foreground">Dorm (6 bed)*</div>
                       </div>
                     </div>
                   </CardContent>
@@ -236,10 +237,15 @@ const RoomsPage = () => {
                 
                 <Card className="border-muted/20">
                   <CardContent className="p-6">
-                    <div className="flex items-center justify-center space-x-3">
-                      <Coffee className="w-5 h-5 text-primary" />
-                      <p className="text-lg font-semibold text-foreground">
-                        Tariff is inclusive of breakfast
+                    <div className="space-y-2">
+                      <div className="flex items-center justify-center space-x-3">
+                        <Coffee className="w-5 h-5 text-primary" />
+                        <p className="text-lg font-semibold text-foreground">
+                          Premium room tariff is inclusive of breakfast
+                        </p>
+                      </div>
+                      <p className="text-sm text-muted-foreground text-center">
+                        *Dorm tariff is exclusive of breakfast
                       </p>
                     </div>
                   </CardContent>
