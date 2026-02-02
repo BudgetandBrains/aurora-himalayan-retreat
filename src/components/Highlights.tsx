@@ -3,8 +3,8 @@ import { Wifi, TreePine, MapPin, BookOpen, Clock, Utensils } from "lucide-react"
 const highlights = [
   {
     icon: Utensils,
-    title: "Saatvik Experience",
-    description: "Vegetarian cuisine and no liquor policy for pure living"
+    title: "Saatvik Living",
+    description: "Pure vegetarian cuisine and mindful living for holistic wellness"
   },
   {
     icon: TreePine,

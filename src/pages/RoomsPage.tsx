@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Wifi, Tv, Coffee, BookOpen, Mountain, Bath, IndianRupee, Percent } from "lucide-react";
+import { CheckCircle, Wifi, Tv, Coffee, BookOpen, Mountain, Bath, IndianRupee, Percent, Leaf, Salad, ChefHat, Heart } from "lucide-react";
 
 const RoomsPage = () => {
   const roomFeatures = [
@@ -158,6 +158,69 @@ const RoomsPage = () => {
           </div>
         </section>
 
+        {/* Wholesome Food Section */}
+        <section className="py-16">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="font-display text-3xl lg:text-4xl font-bold text-foreground mb-4">
+                Wholesome Saatvik Cuisine
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                Nourishing your body and soul with pure, mindfully prepared meals
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <Card className="border-primary/20 bg-primary/5">
+                <CardContent className="p-6 text-center">
+                  <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <ChefHat className="w-7 h-7 text-primary" />
+                  </div>
+                  <h3 className="font-semibold text-foreground mb-2">Freshly Cooked</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Every meal prepared fresh, unlike typical restaurant food
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-primary/20 bg-primary/5">
+                <CardContent className="p-6 text-center">
+                  <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Heart className="w-7 h-7 text-primary" />
+                  </div>
+                  <h3 className="font-semibold text-foreground mb-2">Finest Ingredients</h3>
+                  <p className="text-sm text-muted-foreground">
+                    No refined oil, no white sugar, no maida — only wholesome ingredients
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-primary/20 bg-primary/5">
+                <CardContent className="p-6 text-center">
+                  <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Salad className="w-7 h-7 text-primary" />
+                  </div>
+                  <h3 className="font-semibold text-foreground mb-2">Pure Vegetarian</h3>
+                  <p className="text-sm text-muted-foreground">
+                    100% vegetarian with Jain food options available on request
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-primary/20 bg-primary/5">
+                <CardContent className="p-6 text-center">
+                  <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Leaf className="w-7 h-7 text-primary" />
+                  </div>
+                  <h3 className="font-semibold text-foreground mb-2">Farm to Fork</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Innovative pan-Indian cuisine with locally sourced produce
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
 
         {/* Tariff Section */}
         <section className="py-16 bg-muted/20">
@@ -200,19 +263,18 @@ const RoomsPage = () => {
                         <span className="text-3xl font-bold text-foreground">₹1,500</span>
                         <span className="text-muted-foreground">per night per person</span>
                       </div>
-                      <p className="text-sm text-muted-foreground">Exclusive of breakfast</p>
                     </div>
                   </CardContent>
                 </Card>
               </div>
 
-              <div className="text-center space-y-6">
+              <div className="text-center">
                 <Card className="border-primary/20 bg-primary/5">
                   <CardContent className="p-6">
                     <div className="flex items-center justify-center space-x-3 mb-4">
                       <Percent className="w-6 h-6 text-primary" />
                       <h3 className="font-display text-2xl font-bold text-primary">
-                        Inaugural Discount - 15% Off
+                        Inaugural Discount - 10% Off
                       </h3>
                     </div>
                     <p className="text-lg text-muted-foreground mb-4">
@@ -221,31 +283,15 @@ const RoomsPage = () => {
                     <div className="flex items-center justify-center space-x-6">
                       <div className="text-center">
                         <div className="text-lg font-semibold text-muted-foreground line-through">₹5,000</div>
-                        <div className="text-2xl font-bold text-primary">₹4,250</div>
+                        <div className="text-2xl font-bold text-primary">₹4,500</div>
                         <div className="text-sm text-muted-foreground">Premium Room</div>
                       </div>
                       <div className="w-px h-12 bg-border"></div>
                       <div className="text-center">
                         <div className="text-lg font-semibold text-muted-foreground line-through">₹1,500</div>
-                        <div className="text-2xl font-bold text-primary">₹1,275</div>
-                        <div className="text-sm text-muted-foreground">Budget Options*</div>
+                        <div className="text-2xl font-bold text-primary">₹1,350</div>
+                        <div className="text-sm text-muted-foreground">Budget Options</div>
                       </div>
-                    </div>
-                  </CardContent>
-                </Card>
-                
-                <Card className="border-muted/20">
-                  <CardContent className="p-6">
-                    <div className="space-y-2">
-                      <div className="flex items-center justify-center space-x-3">
-                        <Coffee className="w-5 h-5 text-primary" />
-                        <p className="text-lg font-semibold text-foreground">
-                          Premium room tariff is inclusive of breakfast
-                        </p>
-                      </div>
-                      <p className="text-sm text-muted-foreground text-center">
-                        *Budget options tariff is exclusive of breakfast
-                      </p>
                     </div>
                   </CardContent>
                 </Card>
