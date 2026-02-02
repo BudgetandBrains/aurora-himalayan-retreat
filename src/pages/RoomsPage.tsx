@@ -97,6 +97,28 @@ const RoomsPage = () => {
                 </p>
               </div>
             </div>
+
+            {/* Lounge & Covered Terrace */}
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              <div>
+                <h2 className="font-display text-3xl font-bold text-foreground mb-6">
+                  Lounge & Covered Terrace
+                </h2>
+                <p className="text-lg text-muted-foreground mb-6">
+                  Our lounge provides a cosy sit in for a quiet reading. Our collection of books range from fiction, biographies, self help, history and philosophy and include some Hindi books too.
+                </p>
+                <p className="text-lg text-muted-foreground">
+                  We also have board games and other indoor games should you choose to indulge in moments of laughter with your family and friends.
+                </p>
+              </div>
+              <div>
+                <img 
+                  src="/lovable-uploads/877313b8-5f23-40e3-ae83-88d1665a4323.png"
+                  alt="Cosy lounge with library and reading nook"
+                  className="rounded-lg shadow-lg w-full h-auto"
+                />
+              </div>
+            </div>
           </div>
         </section>
 
@@ -147,30 +169,13 @@ const RoomsPage = () => {
                 </h2>
               </div>
               
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <Card className="border-muted/20 relative overflow-hidden">
                   <CardContent className="p-8">
                     <div className="flex items-center space-x-3 mb-6">
                       <IndianRupee className="w-6 h-6 text-primary" />
                       <h3 className="font-display text-2xl font-bold text-foreground">
-                        Premium Room - Double Occupancy
-                      </h3>
-                    </div>
-                    <div className="space-y-3">
-                      <div className="flex items-baseline space-x-2">
-                        <span className="text-3xl font-bold text-foreground">₹5,500</span>
-                        <span className="text-muted-foreground">per night</span>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card className="border-muted/20 relative overflow-hidden">
-                  <CardContent className="p-8">
-                    <div className="flex items-center space-x-3 mb-6">
-                      <IndianRupee className="w-6 h-6 text-primary" />
-                      <h3 className="font-display text-2xl font-bold text-foreground">
-                        Premium Room - Single Occupancy
+                        Premium Room
                       </h3>
                     </div>
                     <div className="space-y-3">
@@ -187,13 +192,13 @@ const RoomsPage = () => {
                     <div className="flex items-center space-x-3 mb-6">
                       <IndianRupee className="w-6 h-6 text-primary" />
                       <h3 className="font-display text-2xl font-bold text-foreground">
-                        Dorm (6 bed)
+                        Budget Options
                       </h3>
                     </div>
                     <div className="space-y-3">
                       <div className="flex items-baseline space-x-2">
                         <span className="text-3xl font-bold text-foreground">₹1,500</span>
-                        <span className="text-muted-foreground">per night</span>
+                        <span className="text-muted-foreground">per night per person</span>
                       </div>
                       <p className="text-sm text-muted-foreground">Exclusive of breakfast</p>
                     </div>
@@ -215,21 +220,15 @@ const RoomsPage = () => {
                     </p>
                     <div className="flex items-center justify-center space-x-6">
                       <div className="text-center">
-                        <div className="text-lg font-semibold text-muted-foreground line-through">₹5,500</div>
-                        <div className="text-2xl font-bold text-primary">₹4,675</div>
-                        <div className="text-sm text-muted-foreground">Double Occupancy</div>
-                      </div>
-                      <div className="w-px h-12 bg-border"></div>
-                      <div className="text-center">
                         <div className="text-lg font-semibold text-muted-foreground line-through">₹5,000</div>
                         <div className="text-2xl font-bold text-primary">₹4,250</div>
-                        <div className="text-sm text-muted-foreground">Single Occupancy</div>
+                        <div className="text-sm text-muted-foreground">Premium Room</div>
                       </div>
                       <div className="w-px h-12 bg-border"></div>
                       <div className="text-center">
                         <div className="text-lg font-semibold text-muted-foreground line-through">₹1,500</div>
                         <div className="text-2xl font-bold text-primary">₹1,275</div>
-                        <div className="text-sm text-muted-foreground">Dorm (6 bed)*</div>
+                        <div className="text-sm text-muted-foreground">Budget Options*</div>
                       </div>
                     </div>
                   </CardContent>
@@ -245,7 +244,7 @@ const RoomsPage = () => {
                         </p>
                       </div>
                       <p className="text-sm text-muted-foreground text-center">
-                        *Dorm tariff is exclusive of breakfast
+                        *Budget options tariff is exclusive of breakfast
                       </p>
                     </div>
                   </CardContent>
