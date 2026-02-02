@@ -65,8 +65,8 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-secondary-foreground/20 mt-8 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-secondary-foreground/70">
           <p>&copy; 2025 Aurora Farmstay. All rights reserved.</p>
-          <p className="font-medium">
-            Note: Aurora Farmstay is a vegetarian, no-liquor property
+          <p className="font-medium text-secondary-foreground/90">
+            🍃 A Saatvik retreat — Pure vegetarian, alcohol-free sanctuary
           </p>
         </div>
       </div>

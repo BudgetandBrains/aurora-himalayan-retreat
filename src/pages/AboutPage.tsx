@@ -70,7 +70,19 @@ const AboutPage = () => {
               </p>
             </div>
             
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-2xl">🍃</span>
+                </div>
+                <h3 className="font-display text-xl font-semibold text-foreground mb-3">
+                  Saatvik Living
+                </h3>
+                <p className="text-muted-foreground">
+                  Pure vegetarian cuisine, no alcohol — embracing a wholesome lifestyle that nurtures body, mind, and spirit.
+                </p>
+              </div>
+              
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🌿</span>

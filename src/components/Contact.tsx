@@ -234,14 +234,18 @@ const Contact = () => {
               </div>
             </div>
             
-            {/* Important Note */}
-            <div className="bg-accent-light/20 border border-accent/20 rounded-xl p-6">
-              <h4 className="font-display font-semibold text-foreground mb-2">
-                Please Note
-              </h4>
+            {/* Saatvik Living */}
+            <div className="bg-primary/5 border border-primary/20 rounded-xl p-6">
+              <div className="flex items-center gap-3 mb-3">
+                <span className="text-2xl">🍃</span>
+                <h4 className="font-display font-semibold text-foreground">
+                  Saatvik Living
+                </h4>
+              </div>
               <p className="text-sm text-muted-foreground">
-                Aurora Farmstay is a vegetarian, no-liquor property committed to maintaining 
-                a peaceful and pure environment for all our guests.
+                Aurora Farmstay embraces a wholesome lifestyle — pure vegetarian cuisine, 
+                an alcohol-free environment, and mindful living that nurtures your body, 
+                mind, and spirit.
               </p>
             </div>
           </div>
