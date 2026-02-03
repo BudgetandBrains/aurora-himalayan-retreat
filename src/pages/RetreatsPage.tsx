@@ -82,7 +82,7 @@ const RetreatsPage = () => {
                   <div className="bg-muted/30 p-4 rounded-lg">
                     <h4 className="font-semibold text-foreground mb-2">Retreat Details</h4>
                     <div className="space-y-2 text-muted-foreground mb-4">
-                      <p><strong>Dates:</strong> 13-16 November 2025</p>
+                      <p><strong>Dates:</strong> 12-15 February 2026</p>
                       <p><strong>Venue:</strong> Aurora Farmstay, Bharwana, Palampur, HP</p>
                     </div>
                     <div className="text-center">
