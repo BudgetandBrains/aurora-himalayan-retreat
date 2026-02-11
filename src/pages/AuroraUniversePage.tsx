@@ -1,6 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Instagram } from "lucide-react";
+import { Instagram, MapPin } from "lucide-react";
 
 const links = [
   {
@@ -8,6 +8,18 @@ const links = [
     url: "https://www.instagram.com/aurora.farmstay",
     icon: Instagram,
     description: "Follow our journey in the Himalayas",
+  },
+  {
+    name: "Aurora Farmstay on Google Maps",
+    url: "https://maps.app.goo.gl/bmYyE9WyDKuYTBrK9",
+    icon: MapPin,
+    description: "Find us in Bharwana, Palampur",
+  },
+  {
+    name: "a.wear Instagram",
+    url: "https://www.instagram.com/a.wear23?igsh=bWdraGhjemg1dXFw",
+    icon: Instagram,
+    description: "Explore a.wear — fashion by Aurora",
   },
 ];
 
