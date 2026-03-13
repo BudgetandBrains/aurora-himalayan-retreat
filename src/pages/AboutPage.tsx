@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background via-muted/10 to-background">
       <Navigation />
-      <main className="pt-16">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="py-16 lg:py-24 bg-gradient-to-b from-background to-muted/20">
           <div className="container mx-auto px-4">
