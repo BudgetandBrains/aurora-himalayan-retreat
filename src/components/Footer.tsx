@@ -43,7 +43,7 @@ const Footer = () => {
                 <Phone className="w-4 h-4 text-secondary-foreground/60" />
                 <div>
                   <p>+91 70113 25322</p>
-                  <p>+91 98059 69923</p>
+                  <p>+91 93172 69923</p>
                 </div>
               </div>
             </div>
