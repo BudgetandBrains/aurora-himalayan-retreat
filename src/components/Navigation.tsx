@@ -15,7 +15,7 @@ const Navigation = () => {
             <img 
               src={auroraLogo} 
               alt="Aurora Farmstay Yoga Retreat" 
-              className="h-8 w-auto"
+              className="h-14 w-auto"
             />
           </Link>
           
