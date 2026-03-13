@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import auroraLogo from "@/assets/aurora-logo.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,8 +11,12 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/40">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="font-display text-xl font-bold text-foreground">
-            Aurora Farmstay
+          <Link to="/" className="flex items-center">
+            <img 
+              src={auroraLogo} 
+              alt="Aurora Farmstay Yoga Retreat" 
+              className="h-12 w-auto"
+            />
           </Link>
           
           {/* Desktop Navigation */}
