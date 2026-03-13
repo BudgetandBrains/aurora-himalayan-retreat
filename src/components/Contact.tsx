@@ -198,9 +198,9 @@ const Contact = () => {
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
                     <Phone className="w-6 h-6 text-primary" />
                   </div>
-                  <div>
+                <div>
                     <h4 className="font-semibold text-foreground mb-1">Call Us</h4>
-                    <p className="text-muted-foreground">+91 70113 25322 | +91 98059 69923</p>
+                    <p className="text-muted-foreground">+91 70113 25322 | +91 93172 69923</p>
                     <Button variant="earth" size="sm" className="mt-2" asChild>
                       <a href="tel:+917011325322">
                         Call Now
