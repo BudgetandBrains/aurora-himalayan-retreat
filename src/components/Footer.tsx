@@ -1,5 +1,4 @@
 import { MapPin, Mail, Phone, Instagram, Map } from "lucide-react";
-import auroraLogo from "@/assets/aurora-logo.png";
 
 const Footer = () => {
   return (
@@ -8,11 +7,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-full lg:col-span-2">
-            <img 
-              src={auroraLogo} 
-              alt="Aurora Farmstay Yoga Retreat" 
-              className="h-16 w-auto mb-4"
-            />
+            <h3 className="font-display text-2xl font-bold mb-4">
+              Aurora Farmstay
+            </h3>
             <p className="text-secondary-foreground/80 mb-6 max-w-md">
               A quiet Himalayan retreat in Palampur where luxury meets nature. 
               Experience the tranquility of mountain life with modern comforts.
