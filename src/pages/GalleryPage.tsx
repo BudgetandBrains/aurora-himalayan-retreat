@@ -43,7 +43,7 @@ const GalleryPage = () => {
     <div className="min-h-screen bg-earth-warm/30">
       <Navigation />
       
-      <main className="pt-16">
+      <main className="pt-24">
         {/* Hero Section */}
         <section className="py-20 bg-gradient-hero">
           <div className="container mx-auto px-4 text-center">
